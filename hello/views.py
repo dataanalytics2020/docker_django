@@ -5,9 +5,8 @@ def index(request):
     context = { 'name':'anri'}
     return render(request,'hello/index.html',context)
 
-def home(request):
-
-    return render(request,'hello/home.html',context)
+def about(request):
+    return render(request,'hello/about.html')
 
 def info(request):
-    return render(request,'hello/info.html',context)
+    return render(request,'hello/info.html')
